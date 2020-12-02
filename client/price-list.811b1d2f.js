@@ -1,1 +1,0 @@
-import{S as s,i as a,s as t,e,t as r,c,a as i,b as l,d as n,g as o,h as u,n as d}from"./client.fec3da14.js";function f(s){let a,t;return{c(){a=e("h3"),t=r("Price list")},l(s){a=c(s,"H3",{});var e=i(a);t=l(e,"Price list"),e.forEach(n)},m(s,e){o(s,a,e),u(a,t)},p:d,i:d,o:d,d(s){s&&n(a)}}}export default class extends s{constructor(s){super(),a(this,s,null,f,t,{})}}
