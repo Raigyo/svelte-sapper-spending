@@ -18,8 +18,8 @@
       <h3>{name}</h3>
       <p>{amount}</p>
       <i class="trash" on:click={sendDelete}>
-          <!-- In public folder -->
-          <img src="ressources/trash-solid.svg" alt="">
+          <!-- In static folder -->
+          <img src="trash-solid.svg" alt="">
       </i>
   </div>
 </div>

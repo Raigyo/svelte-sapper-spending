@@ -8,6 +8,8 @@ November 2020
 
 * * *
 
+[Demo on Github page](https://raigyo.github.io/svelte-sapper-spending/)
+
 <h1 align="center">
     <img src="_readme-img/svelte-logo.png">
 </h1>
