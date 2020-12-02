@@ -8,7 +8,8 @@ November 2020
 
 * * *
 
-[Demo on Github page](https://raigyo.github.io/svelte-sapper-spending/)
+[Demo on Heroku](https://raigyo-svelte-expenses.herokuapp.com/)
+
 
 <h1 align="center">
     <img src="_readme-img/svelte-logo.png">
@@ -46,6 +47,12 @@ them.
 - `npm run deploy`
 - set the gh-pages branch that was just deployed as the main branch for GitHub Pages to read from.
 
+## How to deploy on Heroku
+
+- `heroku login`
+- `heroku create my-app`
+- `git push heroku HEAD:master`
+
 ## Useful links
 
 - [Svelte.js](https://svelte.dev/)
@@ -54,3 +61,4 @@ them.
 - [Svelte training sources](https://github.com/Ziratsu/SourceSvelte)
 - [Page npm UUID](https://www.npmjs.com/package/uuid)
 - [Creating a blog with Svelte, Sapper and GitHub Pages](https://newcurrent.se/blog/create-markdown-sapper-svelte-blog)
+- [Sapper - Deploy with Heroku](https://www.youtube.com/watch?v=2ABeij8BxCI)
