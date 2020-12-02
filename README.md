@@ -25,6 +25,25 @@ them.
 - `npm install`
 - `npm run dev`
 
+## How to make a Github page
+
+- Pages must be served with Sapper
+- Link the app to a Github repository
+- `npm install -D gh-pages`
+- Modify *package.json*
+
+````json
+"scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
+    "start": "node __sapper__/build",
+    "deploy": "sapper export --legacy &&  gh-pages -d __sapper__/export"
+},
+````
+- `npm run deploy`
+- set the gh-pages branch that was just deployed as the main branch for GitHub Pages to read from.
+
 ## Useful links
 
 - [Svelte.js](https://svelte.dev/)
