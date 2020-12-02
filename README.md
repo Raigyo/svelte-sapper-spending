@@ -1,6 +1,6 @@
 # Svelte.js - Expense calculation application
 
-November 2020
+December 2020
 
 > 🔨  Expenses calculation application made with Svelte.
 >
